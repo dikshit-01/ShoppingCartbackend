@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "BrpVtMYiCGA8p7jTH1hCcZYfBC+gJSvNyGevhINRr08=",
+  "Source": "Shopping_cart_Application",
+  "BasePath": "_content/Shopping_cart_Application",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Shopping_cart_Application\\wwwroot",
+      "Source": "Shopping_cart_Application",
+      "ContentRoot": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\",
+      "BasePath": "_content/Shopping_cart_Application",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Samsung s21.jpg",
+      "SourceId": "Shopping_cart_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\",
+      "BasePath": "_content/Shopping_cart_Application",
+      "RelativePath": "uploads/Samsung s21.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Samsung s21.jpg"
+    },
+    {
+      "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Screenshot (2).png",
+      "SourceId": "Shopping_cart_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\",
+      "BasePath": "_content/Shopping_cart_Application",
+      "RelativePath": "uploads/Screenshot (2).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Screenshot (2).png"
+    },
+    {
+      "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Screenshot (6).png",
+      "SourceId": "Shopping_cart_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\",
+      "BasePath": "_content/Shopping_cart_Application",
+      "RelativePath": "uploads/Screenshot (6).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Screenshot (6).png"
+    },
+    {
+      "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Screenshot (8).png",
+      "SourceId": "Shopping_cart_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\",
+      "BasePath": "_content/Shopping_cart_Application",
+      "RelativePath": "uploads/Screenshot (8).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Screenshot (8).png"
+    }
+  ]
+}

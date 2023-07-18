@@ -1,0 +1,15 @@
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\bin\Debug\net6.0\Buisness_Logic_Layer.deps.json
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\bin\Debug\net6.0\Buisness_Logic_Layer.dll
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\bin\Debug\net6.0\Buisness_Logic_Layer.pdb
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\bin\Debug\net6.0\Data_Access_Layer.dll
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\bin\Debug\net6.0\Data_Access_Layer.pdb
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\obj\Debug\net6.0\Buisness_Logic_Layer.csproj.AssemblyReference.cache
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\obj\Debug\net6.0\Buisness_Logic_Layer.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\obj\Debug\net6.0\Buisness_Logic_Layer.AssemblyInfoInputs.cache
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\obj\Debug\net6.0\Buisness_Logic_Layer.AssemblyInfo.cs
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\obj\Debug\net6.0\Buisness_Logic_Layer.csproj.CoreCompileInputs.cache
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\obj\Debug\net6.0\Buisness_Logic_Layer.csproj.CopyComplete
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\obj\Debug\net6.0\Buisness_Logic_Layer.dll
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\obj\Debug\net6.0\refint\Buisness_Logic_Layer.dll
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\obj\Debug\net6.0\Buisness_Logic_Layer.pdb
+E:\.net Core\Shopping_cart_Application\Buisness_Logic_Layer\obj\Debug\net6.0\ref\Buisness_Logic_Layer.dll
