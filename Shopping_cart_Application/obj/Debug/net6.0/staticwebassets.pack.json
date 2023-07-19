@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Iphone11.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Iphone11.jpg"
+    },
+    {
       "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Samsung s21.jpg",
       "PackagePath": "staticwebassets\\uploads\\Samsung s21.jpg"
     },
@@ -15,6 +19,14 @@
     {
       "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Screenshot (8).png",
       "PackagePath": "staticwebassets\\uploads\\Screenshot (8).png"
+    },
+    {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\boat neckband.png",
+      "PackagePath": "staticwebassets\\uploads\\boat neckband.png"
+    },
+    {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\straight jeans.jpg",
+      "PackagePath": "staticwebassets\\uploads\\straight jeans.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Shopping_cart_Application.Microsoft.AspNetCore.StaticWebAssets.props",

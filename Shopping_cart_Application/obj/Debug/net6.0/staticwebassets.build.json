@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BrpVtMYiCGA8p7jTH1hCcZYfBC+gJSvNyGevhINRr08=",
+  "Hash": "Ggtbxdwq1UGosjKrSnqPVnSVJZxUnf6cu0oa4GF/AZs=",
   "Source": "Shopping_cart_Application",
   "BasePath": "_content/Shopping_cart_Application",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\boat neckband.png",
+      "SourceId": "Shopping_cart_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\",
+      "BasePath": "_content/Shopping_cart_Application",
+      "RelativePath": "uploads/boat neckband.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\boat neckband.png"
+    },
+    {
+      "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Iphone11.jpg",
+      "SourceId": "Shopping_cart_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\",
+      "BasePath": "_content/Shopping_cart_Application",
+      "RelativePath": "uploads/Iphone11.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Iphone11.jpg"
+    },
     {
       "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Samsung s21.jpg",
       "SourceId": "Shopping_cart_Application",
@@ -83,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\Screenshot (8).png"
+    },
+    {
+      "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\straight jeans.jpg",
+      "SourceId": "Shopping_cart_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\",
+      "BasePath": "_content/Shopping_cart_Application",
+      "RelativePath": "uploads/straight jeans.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\straight jeans.jpg"
     }
   ]
 }

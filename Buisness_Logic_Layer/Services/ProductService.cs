@@ -22,36 +22,43 @@ namespace Buisness_Logic_Layer.Services
             _prodRepository = prodRepository;
             _webHostEnvironment = webHostEnvironment;
         }
-        public async void AddProduct(ProductDTO productDto) { 
+        public async void AddProduct(ProductDTO productDto) {
             Product product = new Product()
             {
-                Name= productDto.Name,
-                Description= productDto.Description,
-                Price= productDto.Price,
-                Quantity= productDto.Quantity,
-                CategoryId= productDto.CategoryId,
-            
-                Rating= productDto.Rating,
+                Name = productDto.Name,
+                Description = productDto.Description,
+                Price = productDto.Price,
+                Quantity = productDto.Quantity,
+                CategoryId = productDto.CategoryId,
+
+                Rating = productDto.Rating,
             };
-            if(productDto.Images.Length> 0)
+            try
             {
-                string path = _webHostEnvironment.WebRootPath + "\\uploads\\";
-                if(!Directory.Exists(path))
+                if (productDto.Images.Length > 0)
                 {
-                    Directory.CreateDirectory(path);
+                    string path = _webHostEnvironment.WebRootPath + "\\uploads\\";
+                    if (!Directory.Exists(path))
+                    {
+                        Directory.CreateDirectory(path);
+                    }
+                    string fileName = productDto.Images.FileName;
+                    using (FileStream fileStream = System.IO.File.Create(path + productDto.Images.FileName))
+                    {
+                        productDto.Images.CopyTo(fileStream);
+                        fileStream.Flush();
+                    }
+                    product.Images = "https://localhost:7241/uploads/" + fileName;
                 }
-                string fileName = productDto.Images.FileName;
-                using (FileStream fileStream = System.IO.File.Create(path + productDto.Images.FileName))
-                {
-                    productDto.Images.CopyTo(fileStream);
-                    fileStream.Flush();
-                }
-                product.Images = "https://localhost:7241/uploads/" + fileName;
+            }
+           catch
+            {
+                product.Images = null;
             }
 
             _prodRepository.Insert(product);
             _prodRepository.Save();
-             
+
         }
 
 
@@ -66,20 +73,27 @@ namespace Buisness_Logic_Layer.Services
             product.Rating = productDto.Rating;
             product.Name = productDto.Name;
 
-            if (productDto.Images.Length > 0)
+            try
             {
-                string path = _webHostEnvironment.WebRootPath + "\\uploads\\";
-                if (!Directory.Exists(path))
+                if (productDto.Images.Length > 0)
                 {
-                    Directory.CreateDirectory(path);
+                    string path = _webHostEnvironment.WebRootPath + "\\uploads\\";
+                    if (!Directory.Exists(path))
+                    {
+                        Directory.CreateDirectory(path);
+                    }
+                    string fileName = productDto.Images.FileName;
+                    using (FileStream fileStream = System.IO.File.Create(path + productDto.Images.FileName))
+                    {
+                        productDto.Images.CopyTo(fileStream);
+                        fileStream.Flush();
+                    }
+                    product.Images = "https://localhost:7241/uploads/" + fileName;
                 }
-                string fileName = productDto.Images.FileName;
-                using (FileStream fileStream = System.IO.File.Create(path + productDto.Images.FileName))
-                {
-                    productDto.Images.CopyTo(fileStream);
-                    fileStream.Flush();
-                }
-                product.Images = "https://localhost:7241/uploads/" + fileName;
+            }
+            catch
+            {
+                product.Images = null;
             }
 
 

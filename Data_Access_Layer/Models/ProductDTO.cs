@@ -24,7 +24,6 @@ namespace Data_Access_Layer.Models
         [Required]
         public int Quantity { get; set; }
 
-        //public string Images { get; set; }
         public IFormFile? Images { get; set; }
 
     }

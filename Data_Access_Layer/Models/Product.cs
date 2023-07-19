@@ -26,7 +26,7 @@ namespace Data_Access_Layer.Models
         [Required]
         public int Quantity { get; set; }
 
-        public string Images { get; set; } 
+        public string? Images { get; set; } 
 
         public Category Category { get; set; }
     }
