@@ -69,6 +69,7 @@ namespace Shopping_cart_Application.Controllers
             }
 
             var validUser = await _userManager.FindByEmailAsync(user.UserName);
+            if (validUser == null) return NotFound();
             if (await _userManager.CheckPasswordAsync(validUser,user.Password))
             {
                 

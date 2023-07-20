@@ -75,7 +75,7 @@ namespace Buisness_Logic_Layer.Services
 
             try
             {
-                if (productDto.Images.Length > 0)
+                if (productDto.Images?.Length > 0)
                 {
                     string path = _webHostEnvironment.WebRootPath + "\\uploads\\";
                     if (!Directory.Exists(path))
