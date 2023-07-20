@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ggtbxdwq1UGosjKrSnqPVnSVJZxUnf6cu0oa4GF/AZs=",
+  "Hash": "+pPwJ1zRVmdCPlA+j/8BjnBu0yT8yj7Y4eRmazh16Hk=",
   "Source": "Shopping_cart_Application",
   "BasePath": "_content/Shopping_cart_Application",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\Screenshot (8).png"
+    },
+    {
+      "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Skirt.jpg",
+      "SourceId": "Shopping_cart_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\",
+      "BasePath": "_content/Shopping_cart_Application",
+      "RelativePath": "uploads/Skirt.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Skirt.jpg"
     },
     {
       "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\straight jeans.jpg",

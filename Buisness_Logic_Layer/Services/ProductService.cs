@@ -53,7 +53,7 @@ namespace Buisness_Logic_Layer.Services
             }
            catch
             {
-                product.Images = null;
+                product.Images = "noimage";
             }
 
             _prodRepository.Insert(product);
@@ -93,7 +93,7 @@ namespace Buisness_Logic_Layer.Services
             }
             catch
             {
-                product.Images = null;
+                product.Images = "NoImage";
             }
 
 
