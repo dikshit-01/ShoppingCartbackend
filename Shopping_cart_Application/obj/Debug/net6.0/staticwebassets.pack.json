@@ -1,12 +1,32 @@
 {
   "Files": [
     {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\47.15584078110942file.jpg",
+      "PackagePath": "staticwebassets\\uploads\\47.15584078110942file.jpg"
+    },
+    {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\774.4994269554926file.jpg",
+      "PackagePath": "staticwebassets\\uploads\\774.4994269554926file.jpg"
+    },
+    {
       "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Iphone11.jpg",
       "PackagePath": "staticwebassets\\uploads\\Iphone11.jpg"
     },
     {
       "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Samsung s21.jpg",
       "PackagePath": "staticwebassets\\uploads\\Samsung s21.jpg"
+    },
+    {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Screenshot (14).png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot (14).png"
+    },
+    {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Screenshot (16).png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot (16).png"
+    },
+    {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Screenshot (17).png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot (17).png"
     },
     {
       "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Screenshot (2).png",
@@ -25,8 +45,24 @@
       "PackagePath": "staticwebassets\\uploads\\Skirt.jpg"
     },
     {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\admin.jpg",
+      "PackagePath": "staticwebassets\\uploads\\admin.jpg"
+    },
+    {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\blob",
+      "PackagePath": "staticwebassets\\uploads"
+    },
+    {
       "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\boat neckband.png",
       "PackagePath": "staticwebassets\\uploads\\boat neckband.png"
+    },
+    {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\boat.jpg",
+      "PackagePath": "staticwebassets\\uploads\\boat.jpg"
+    },
+    {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\filename.jpg",
+      "PackagePath": "staticwebassets\\uploads\\filename.jpg"
     },
     {
       "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\straight jeans.jpg",

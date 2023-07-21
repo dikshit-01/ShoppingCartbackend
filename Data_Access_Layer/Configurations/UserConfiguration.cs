@@ -22,6 +22,7 @@ namespace Data_Access_Layer.Configurations
                     PhoneNumber="8989898989",
                     Email= "admin01@gmail.com",
                     NormalizedEmail = "admin01@gmail.com",
+                    UserImage= "https://localhost:7241/uploads/admin.jpg",
                     PasswordHash =new PasswordHasher<User>().HashPassword(null,"Admin@123")
                 }
                 );

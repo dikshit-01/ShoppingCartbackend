@@ -1,5 +1,12 @@
+E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.csproj.AssemblyReference.cache
+E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.AssemblyInfoInputs.cache
+E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.AssemblyInfo.cs
+E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.csproj.CoreCompileInputs.cache
+E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.MvcApplicationPartsAssemblyInfo.cache
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\appsettings.Development.json
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\appsettings.json
+E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Shopping_cart_Application.staticwebassets.runtime.json
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Shopping_cart_Application.exe
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Shopping_cart_Application.deps.json
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Shopping_cart_Application.runtimeconfig.json
@@ -28,6 +35,7 @@ E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Microsoft.OpenApi.dll
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Newtonsoft.Json.dll
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -55,13 +63,6 @@ E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Data_Access_Layer.dll
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Buisness_Logic_Layer.pdb
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Data_Access_Layer.pdb
-E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.csproj.AssemblyReference.cache
-E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.GeneratedMSBuildEditorConfig.editorconfig
-E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.AssemblyInfoInputs.cache
-E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.AssemblyInfo.cs
-E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.csproj.CoreCompileInputs.cache
-E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.MvcApplicationPartsAssemblyInfo.cs
-E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.MvcApplicationPartsAssemblyInfo.cache
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\staticwebassets\msbuild.Shopping_cart_Application.Microsoft.AspNetCore.StaticWebAssets.props
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\staticwebassets\msbuild.build.Shopping_cart_Application.props
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Shopping_cart_Application.props
@@ -76,5 +77,3 @@ E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.pdb
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\Shopping_cart_Application.genruntimeconfig.cache
 E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\obj\Debug\net6.0\ref\Shopping_cart_Application.dll
-E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Newtonsoft.Json.dll
-E:\.net Core\Shopping_cart_Application\Shopping_cart_Application\bin\Debug\net6.0\Shopping_cart_Application.staticwebassets.runtime.json

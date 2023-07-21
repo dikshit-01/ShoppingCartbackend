@@ -9,5 +9,6 @@ namespace Data_Access_Layer.Models
     public class Token
     {
        public string token { get; set; }
+       public string image { get; set; }
     }
 }

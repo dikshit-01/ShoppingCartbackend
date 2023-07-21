@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -18,6 +19,8 @@ namespace Data_Access_Layer.Models
         [DataType(DataType.EmailAddress)]
         [Required(ErrorMessage = "Email is required")]
         public string Email { get; set; }
+
+        public IFormFile? Image { get; set; }
 
         [DataType(DataType.Password)]
         [Required(ErrorMessage = "Password is required")]

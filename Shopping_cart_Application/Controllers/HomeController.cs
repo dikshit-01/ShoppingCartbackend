@@ -47,7 +47,7 @@ namespace Shopping_cart_Application.Controllers
 
         [HttpPost]
         [Route("Register")]
-        public async Task<ActionResult> Register(UserModel userModel)
+        public async Task<ActionResult> Register([FromForm] UserModel userModel)
         {
             var IsAlreadyExists = await _userManager.FindByEmailAsync(userModel.Email);
             if (IsAlreadyExists != null) { return Conflict(); }
@@ -77,9 +77,10 @@ namespace Shopping_cart_Application.Controllers
                 if (_generatedToken != null)
                 {
                     HttpContext.Session.SetString("Token", _generatedToken);
-                    Token tk = new Token();
-                    tk.token= _generatedToken;
-                    string json = JsonConvert.SerializeObject(tk);
+                    Token token = new Token();
+                    token.token= _generatedToken;
+                    token.image = validUser.UserImage;
+                    string json = JsonConvert.SerializeObject(token);
                     return Ok(json);
                 }
                 else
