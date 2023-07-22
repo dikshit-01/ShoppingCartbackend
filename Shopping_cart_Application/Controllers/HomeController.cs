@@ -80,6 +80,7 @@ namespace Shopping_cart_Application.Controllers
                     Token token = new Token();
                     token.token= _generatedToken;
                     token.image = validUser.UserImage;
+                    token.UserId = new Guid(validUser.Id);
                     string json = JsonConvert.SerializeObject(token);
                     return Ok(json);
                 }
@@ -91,6 +92,27 @@ namespace Shopping_cart_Application.Controllers
             else
             {
                 return NotFound();
+            }
+        }
+
+        [HttpGet("GetUserById{id}")]
+        public async Task<ActionResult> GetUserById([FromRoute] string id)
+        {
+            
+            User user = _genericRepository.FindById(id);
+            if(user==null) return NotFound();
+            else return Ok(user);
+        }
+
+        [HttpPut("EditUser{id}")]
+        public ActionResult EditUser(string id,[FromForm]UserDTO userDto)
+        {
+            User user = _genericRepository.FindById(id);
+            if (user == null) return NotFound();
+            else
+            {
+               _createUser.EditUser(user, userDto);
+               return Ok();
             }
         }
     }

@@ -10,5 +10,7 @@ namespace Data_Access_Layer.Models
     {
        public string token { get; set; }
        public string image { get; set; }
+
+       public Guid UserId { get; set; }
     }
 }

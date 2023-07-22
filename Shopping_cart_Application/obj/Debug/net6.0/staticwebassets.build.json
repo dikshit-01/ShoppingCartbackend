@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nFdJ2trRbSkZpEdNv8DO8wGh1+hoIl2zyeGA8kTh6Bs=",
+  "Hash": "qsEXgFmeRhnJv0nik3QlG5n2jnhxiu6YAnjJ5pbhqwk=",
   "Source": "Shopping_cart_Application",
   "BasePath": "_content/Shopping_cart_Application",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\filename.jpg"
+    },
+    {
+      "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\IMG_20220128_161857.jpg",
+      "SourceId": "Shopping_cart_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\",
+      "BasePath": "_content/Shopping_cart_Application",
+      "RelativePath": "uploads/IMG_20220128_161857.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\IMG_20220128_161857.jpg"
     },
     {
       "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\Iphone11.jpg",

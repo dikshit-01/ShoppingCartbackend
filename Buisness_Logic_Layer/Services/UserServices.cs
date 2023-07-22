@@ -55,5 +55,27 @@ namespace Buisness_Logic_Layer.Services
             await _userManager.AddToRoleAsync(user, "User");
             return result;
         }
+    
+       public void EditUser(User user,UserDTO userDTO)
+        {
+            if (userDTO.image?.Length > 0)
+            {
+                string path = _webHostEnvironment.WebRootPath + "\\uploads\\";
+                if (!Directory.Exists(path))
+                {
+                    Directory.CreateDirectory(path);
+                }
+                string fileName = userDTO.image.FileName;
+                using (FileStream fileStream = System.IO.File.Create(path + userDTO.image.FileName))
+                {
+                    userDTO.image.CopyTo(fileStream);
+                    fileStream.Flush();
+                }
+                user.UserImage = "https://localhost:7241/uploads/" + fileName;
+            }
+            _genericRepository.Update(user);
+            _genericRepository.Save();
+            
+        }
     }
 }
