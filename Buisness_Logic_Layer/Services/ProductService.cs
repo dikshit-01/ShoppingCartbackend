@@ -30,7 +30,6 @@ namespace Buisness_Logic_Layer.Services
                 Price = productDto.Price,
                 Quantity = productDto.Quantity,
                 CategoryId = productDto.CategoryId,
-
                 Rating = productDto.Rating,
             };
             try
