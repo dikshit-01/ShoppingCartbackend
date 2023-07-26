@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,12 +22,13 @@ namespace Data_Access_Layer.Models
         public float Price { get; set; }
         [Required]
         public string Rating { get; set; } = string.Empty;
+
         [Required]
         public int CategoryId { get; set; }
         [Required]
         public int Quantity { get; set; }
 
-        public string? Images { get; set; } 
+        public string? Images { get; set; }
 
         public Category Category { get; set; }
     }
