@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using OfficeOpenXml;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -103,6 +104,7 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true; // Ensure that the session cookie is only accessible through HTTP
                                     // Add any additional session options as needed
 });
+ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 // Import the following namespace if needed:
 // using System.Web.Http.Cors;
 
@@ -121,6 +123,7 @@ if (app.Environment.IsDevelopment())
 app.UseCors();
 app.UseStaticFiles();
 app.UseAuthentication();
+app.UseRouting();
 app.UseAuthorization();
 
 app.UseSession();

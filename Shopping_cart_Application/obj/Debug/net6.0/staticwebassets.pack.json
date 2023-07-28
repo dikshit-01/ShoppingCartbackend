@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\ExcelSheets\\Book1.xlsx",
+      "PackagePath": "staticwebassets\\ExcelSheets\\Book1.xlsx"
+    },
+    {
       "Id": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\11file.jpg",
       "PackagePath": "staticwebassets\\uploads\\11file.jpg"
     },

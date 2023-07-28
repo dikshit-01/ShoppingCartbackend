@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lAC5545P9hJ/muRNKqWC11BVydLWARL7El4kANt0rwY=",
+  "Hash": "cNMl5nNZBD3E6+VagenmvdrK/qy4t00/dBnQqxlO3yw=",
   "Source": "Shopping_cart_Application",
   "BasePath": "_content/Shopping_cart_Application",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\ExcelSheets\\Book1.xlsx",
+      "SourceId": "Shopping_cart_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\",
+      "BasePath": "_content/Shopping_cart_Application",
+      "RelativePath": "ExcelSheets/Book1.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExcelSheets\\Book1.xlsx"
+    },
     {
       "Identity": "E:\\.net Core\\Shopping_cart_Application\\Shopping_cart_Application\\wwwroot\\uploads\\11file.jpg",
       "SourceId": "Shopping_cart_Application",

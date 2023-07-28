@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NPOI.HPSF;
 
 namespace Shopping_cart_Application.Controllers
 {
@@ -109,11 +110,19 @@ namespace Shopping_cart_Application.Controllers
             return Ok(productPageData);
         }
 
+        [HttpPost("importData")]
+        public async Task<ActionResult> ImportData([FromForm] IFormFile file)
+        {
+            var result = await _productService.ImportData(file);
+            if(result==null) return BadRequest();
+            return Ok(result);
+        }
 
-
-
-
-
-
+        [HttpGet("exportData")]
+        public async Task<ActionResult> ExportData()
+        {
+          var content = await _productService.ExportToExcel();
+            return File(content, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Products.xlsx");
+        }
     }
 }
